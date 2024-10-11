@@ -1,0 +1,135 @@
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main form{
+    max-width: 770px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.form_head{
+    text-align: center;
+}
+
+.form_head h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form_head p{
+    color: rgba(0,0,0,0.6);
+}
+
+.input h3{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.input_grid .input_group{
+    margin-bottom: 1rem;
+}
+
+.input_grid .input_group label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.input_grid .input_group label.light_label{
+    color: #6b6c6b;
+}
+
+.input_grid .input_group input[type="text"],
+.input_grid .input_group input[type="password"],
+.input_grid .input_group input[type="email"],
+.input_grid .input_group input[type="number"],
+.input_grid .input_group input[type="date"],
+.input_grid .input_group input[type="datetime-local"],
+.input_grid .input_group select{
+    width: 100%;
+    height: 45px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border: 1px solid #6b6c6b;
+    outline: none;
+    border-radius: 0.3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.input_grid .input_group select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.input_grid .input_group label.label_pinter{
+    cursor: pointer;
+}
+
+.input_grid .input_group input[type="file"]{
+    cursor: pointer;
+}
+
+.gender_flex .gender label{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.input_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+}
+
+.sports_list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0;
+}
+
+.sports_list .sport{
+    line-height: 1.7;
+}
+
+.sports_list .sport label{
+    cursor: pointer;
+}
+
+.overview{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+}
+
+.overview span{
+    font-weight: 600;
+}
+
+.overview p{
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+button{
+    margin: 1rem 0 0 0;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    background: orangered;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: rgb(224, 60, 0);
+}
