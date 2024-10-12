@@ -58,6 +58,10 @@ nav .nav_image img{
     color: #fff;
 }
 
+.red{
+    font-size: 2rem;
+}
+
 
 /* responsive */
 @media (max-width: 598px) {

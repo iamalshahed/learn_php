@@ -1,6 +1,7 @@
 <?php 
 
-
+// connect config file
+require_once('./assets/php/config.php');
 
 ?>
 
@@ -13,6 +14,9 @@
     <!-- link custom css file -->
      <link rel="stylesheet" href="./assets/css/style.css">
      <link rel="stylesheet" href="./assets/css/form.css">
+
+     <!-- link favicon -->
+      <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
 
      <!-- link box icons cdn -->
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
