@@ -46,6 +46,7 @@ main form{
 .input_grid .input_group input[type="password"],
 .input_grid .input_group input[type="email"],
 .input_grid .input_group input[type="number"],
+.input_grid .input_group input[type="file"],
 .input_grid .input_group input[type="date"],
 .input_grid .input_group input[type="datetime-local"],
 .input_grid .input_group select{

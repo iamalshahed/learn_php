@@ -34,7 +34,7 @@ require_once('./assets/php/config.php');
 
             <span class="view_data">
                 <a href="./assets/php/data.php" target="_blank">
-                    <i class='bx bx-street-view' title="View all data..."></i>
+                    <i class='bx bxs-folder-open' title="View all Data..."></i>
                 </a>
             </span>
         </nav>
@@ -251,7 +251,7 @@ require_once('./assets/php/config.php');
 
                      <!-- 2nd input group -->
                      <div class="input_group">
-                        <label class="light_label" for="phone">Phone Number</label>
+                        <label class="light_label" for="phone">Mobile Number</label>
                         <input type="number" name="phone" id="phone" placeholder="Enter your phone number" required>
                      </div>
                  </div>
